@@ -50,7 +50,7 @@ Lot 3: The p-value is above the significance level of 0.05 percent, so we can st
 
 ## Study Design: MechaCar vs Competition
 <br>
-Statistical study to compare vehicle performance of the MechaCars against other manufacturers’ vehicles
+Statistical study to compare vehicle performance of the MechaCars against other manufacturers’ vehicles:
 <br><br>
 Metrics to be tested:
 <ul>
