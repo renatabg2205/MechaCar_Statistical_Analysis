@@ -47,8 +47,8 @@ Lot 3: The p-value is above the significance level of 0.05 percent, so we can st
 
 ## Study Design: MechaCar vs Competition
 <br>
-Statistical study to quantify how the MechaCar performs against the competition.
-
+Statistical study to quantify how MechaCar performs against the competition.
+<br>
 Metrics to be tested:
 <ul>
 <li>cost
@@ -61,4 +61,5 @@ Metrics to be tested:
 <li>The null hypothesis (H0): There is no statistical difference between MechaCar and the competition.
 <li>The alternate hypothesis (Ha): There is a statistical difference between MechaCar and the competition.
 </ul>
+<br>
 A two-sample t-test will test the hypotheses described above, using data points for cost, highway fuel efficiency, maintenance cost, and safety rating. It will provide information whether each metric has a significant difference between MechaCar and their competition.
