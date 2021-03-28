@@ -15,6 +15,7 @@ Output from the linear regression:
 <li>Based on these results, we can say that this linear model effectively predicts mpg of MechaCar prototypes. 
 </ul>
 
+
 ## Summary Statistics on Suspension Coils
 <br>
 total_summary dataframe:
@@ -26,6 +27,7 @@ lot_summary dataframe:
 <img src="Images/lot_summary.PNG" alt="Screenshot of lot_summary dataframe">
 <br>
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total, because the variance is 62.29. As for each lot individually, lots 1 and 2 meet this design specification (variances of 0.97 and 7.46, respectively), however, lot 3 does not meet because the variance is 170.28.
+
 
 ## T-Tests on Suspension Coils
 <br>
@@ -44,6 +46,7 @@ Lot 2: The p-value is above the significance level of 0.05 percent, so we can st
 <br><br>
 <img src="Images/ttest_lot3.PNG" alt="Screenshot of output of t.test() for lot 3"><br>
 Lot 3: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 3 is statistically similar to the population mean of 1,500 pounds per square inch.
+
 
 ## Study Design: MechaCar vs Competition
 <br>
