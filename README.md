@@ -10,7 +10,6 @@ Output from the linear regression:
 <br>
 <img src="Images/linear_regression.PNG" alt="Screenshot of the output from the linear regression">
 
-<br>
 ## Summary Statistics on Suspension Coils
 <br>
 total_summary dataframe:
