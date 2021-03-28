@@ -47,6 +47,7 @@ Lot 1: The p-value is below the significance level of 0.05 percent, so we can re
 <img src="Images/ttest_lot2.PNG" alt="Screenshot of output of t.test() for lot 2">
 Lot 2: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.
 <br>
+
 <img src="Images/ttest_lot3.PNG" alt="Screenshot of output of t.test() for lot 3">
 Lot 3: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 3 is statistically similar to the population mean of 1,500 pounds per square inch.
 <br>
