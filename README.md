@@ -29,25 +29,17 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 <br>
-Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch:
+Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch:<br>
 
-<br>
 <img src="Images/ttest_alllots.PNG" alt="Screenshot of output of t.test() for all manufacturing lots">
-<br>
-The p-value is 1. Assuming a significance level of 0.05 percent, the p-value is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots is statistically similar from the population mean of 1,500 pounds per square inch.
-<br>
+The p-value is 1. Assuming a significance level of 0.05 percent, the p-value is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots is statistically similar from the population mean of 1,500 pounds per square inch.<br>
 
-Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch:
-
-<br>
+Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch:<br>
 <img src="Images/ttest_lot1.PNG" alt="Screenshot of output of t.test() for lot 1">
-Lot 1: The p-value is below the significance level of 0.05 percent, so we can reject the null hypothesis and state that the PSI for lot 1 is statistically different from the population mean of 1,500 pounds per square inch.
-<br>
+Lot 1: The p-value is below the significance level of 0.05 percent, so we can reject the null hypothesis and state that the PSI for lot 1 is statistically different from the population mean of 1,500 pounds per square inch.<br>
 
 <img src="Images/ttest_lot2.PNG" alt="Screenshot of output of t.test() for lot 2">
-Lot 2: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.
-<br>
+Lot 2: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.<br>
 
 <img src="Images/ttest_lot3.PNG" alt="Screenshot of output of t.test() for lot 3">
 Lot 3: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 3 is statistically similar to the population mean of 1,500 pounds per square inch.
-<br>
