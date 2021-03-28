@@ -38,9 +38,27 @@ Determine if the PSI for each manufacturing lot is statistically different from 
 <br>
 <img src="Images/ttest_lot1.PNG" alt="Screenshot of output of t.test() for lot 1"><br>
 Lot 1: The p-value is below the significance level of 0.05 percent, so we can reject the null hypothesis and state that the PSI for lot 1 is statistically different from the population mean of 1,500 pounds per square inch.<br>
-<br>
+<br><br>
 <img src="Images/ttest_lot2.PNG" alt="Screenshot of output of t.test() for lot 2"><br>
 Lot 2: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.<br>
-<br>
+<br><br>
 <img src="Images/ttest_lot3.PNG" alt="Screenshot of output of t.test() for lot 3"><br>
 Lot 3: The p-value is above the significance level of 0.05 percent, so we can state that the PSI for lot 3 is statistically similar to the population mean of 1,500 pounds per square inch.
+
+## Study Design: MechaCar vs Competition
+<br>
+Statistical study to quantify how the MechaCar performs against the competition.
+
+Metrics to be tested:
+<ul>
+<li>cost
+<li>highway fuel efficiency
+<li>maintenance cost
+<li>safety rating
+</ul>
+<br>
+<ul>
+<li>The null hypothesis (H0): There is no statistical difference between MechaCar and the competition.
+<li>The alternate hypothesis (Ha): There is a statistical difference between MechaCar and the competition.
+</ul>
+A two-sample t-test will test the hypotheses described above, using data points for cost, highway fuel efficiency, maintenance cost, and safety rating. It will provide information whether each metric has a significant difference between MechaCar and their competition.
