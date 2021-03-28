@@ -6,7 +6,8 @@
 
 ## Linear Regression to Predict MPG
 <br>
-### Output from the linear regression:
+Output from the linear regression:
+<br>
 <img src="Images/linear_regression.PNG" alt="Screenshot of the output from the linear regression">
 <ul>
 <li>Vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset.
@@ -22,13 +23,13 @@
 <br>
 ## Summary Statistics on Suspension Coils
 <br>
-### total_summary dataframe:
+total_summary dataframe:
+<br>
 <img src="Images/total_summary.PNG" alt="Screenshot of total_summary dataframe">
 <br>
-### lot_summary dataframe:
+lot_summary dataframe:
+<br>
 <img src="Images/lot_summary.PNG" alt="Screenshot of lot_summary dataframe">
 <br>
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total, because the variance is 62.29. As for each lot individually, lots 1 and 2 meet this design specification (variances of 0.97 and 7.46, respectively), however, lot 3 does not meet because the variance is 170.28.
-<br>
-## 
 <br>
