@@ -1,5 +1,6 @@
 # MechaCar_Statistical_Analysis
-<br>
+
+
 ## Linear Regression to Predict MPG
 <br>
 Output from the linear regression:
